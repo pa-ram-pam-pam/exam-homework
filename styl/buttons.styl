@@ -3,7 +3,9 @@ button =
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  background: transparent;
+  // background: transparent;
+  font-size: 14px;
+  line-height: 14px;
 
 .button_no-icon-accent-normal {
   {button};
@@ -11,12 +13,12 @@ button =
   border: 2px solid $color_accent-active;
   color: $color_body;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
-.button_no-icon-accent-on-hover {
-  {button};
-  background: $color_on-hover;
-  color: $color_body;
+  &:hover {
+    background: $color_on-hover;
+    box-shadow: none;
+    border: 2px solid $color_on-hover;
+  }
 }
 
 .button_no-icon-accent-on-disable {
@@ -27,16 +29,16 @@ button =
 
 .button_no-icon-accent-alt-normal {
   {button};
+  background: transparent;
   border: 2px solid $color_accent-active;
   box-sizing: border-box;
   color: $color_body;
-}
 
-.button_no-icon-accent-alt-on-hover {
-  {button};
-  background: $color_on-hover;
-  border: 2px solid $color_accent-active;
-  box-sizing: border-box;
+  &:hover {
+    background: $color_on-hover;
+    border: 2px solid $color_accent-active;
+    box-sizing: border-box;
+  }
 }
 
 .button_no-icon-accent-alt-disable {
@@ -44,29 +46,37 @@ button =
   border: 2px solid $color_picked;
   box-sizing: border-box;
   color: $color_body;
+  background: transparent;
 }
 
 .button_no-icon-secondary-normal {
+  {button};
+  border: 2px solid $color_grey;
   background: $color_grey;
   color: $color_body;
-}
 
-.button_no-icon-secondary-on-hover {
-  background: $color_light-grey;
-  color: $color_body;
+  &:hover {
+    background: $color_light-grey;
+    border: 2px solid $color_light-grey;
+    color: $color_body;
+  }
 }
 
 .button_no-icon-secondary-disable {
+  {button};
   background: $color_dark-grey;
   color: $color_dark-grey-2;
 }
 
 .button_no-icon-ghost-normal {
+  {button};
   background: $color_grey;
   color: $color_body;
+  background: transparent;
 }
 
 .button_with-icon-accent-normal {
+  {button};
   background: $color_accent-active;
   border: 1px solid $color_accent-active;
   color: $color_body;
