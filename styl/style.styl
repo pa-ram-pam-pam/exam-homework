@@ -1,6 +1,6 @@
 @require 'colors';
-// @require 'fonts';
 
+// @require 'fonts';
 * {
     margin: 0;
     padding: 0;
@@ -19,8 +19,10 @@ body {
 .main-container {
     min-width: 100vh;
 }
-.side-panel&.flex 
+
+.side-panel&.flex {
     width: 80px;
+}
 
 .side-panel {
     // width: 80px;
@@ -72,18 +74,21 @@ body {
 }
 
 .right-side {
-    
     background-color: $color_white;
 }
 
-.right-side&.main-container 
+.right-side&.main-container {
     width: 100%;
+}
 
 .header {
-    min-width: 1286px;
-    height: 60px;
     background-color: $color_light-grey;
     border-bottom: 1px solid $color_grey;
+}
+
+.header&.right-side {
+    min-width: 1286px;
+    height: 60px;
 }
 
 .header__title {
@@ -108,24 +113,30 @@ body {
     padding-top: 20px;
 }
 
-.btn-area {
+.btn-area&.right-side {
     height: 38px;
     margin-left: 28px;
     margin-top: 28px;
+}
 
+.btn-area {
     >button {
         margin-right: 16px;
     }
 }
 
-.main 
-    min-width: 1286px
+.main&.flex {
+    min-width: 1286px;
+}
 
-.market-content {
+.main&.market-content {
     width: 50%;
-    background: $color_white;
     margin-left: 28px;
     margin-top: 28px;
+}
+
+.market-content {
+    background: $color_white;
 }
 
 .market-content__title {
@@ -140,10 +151,13 @@ body {
     margin-top: 24px;
 }
 
-.m-card {
+.m-card&.market-content {
     width: 52%;
 }
 
+// .m-card {
+
+// }
 .m-card__title {
     margin-bottom: 16px;
 }
@@ -156,20 +170,25 @@ body {
     margin-bottom: 12px;
 }
 
-.business-dev {
+.business-dev&.main
     width: 50%;
-    background: $color_white;
     margin-left: 28px;
     margin-top: 28px;
     margin-right: 34px;
+
+.business-dev {
+    background: $color_white;
 }
 
-.b-card {
-    display: flex;
-    background-color: #F2F2F2;
+.b-card&.business__container    {
     margin-bottom: 20px;
-    border: 1px solid #DDDDDD;
+}
 
+
+.b-card {
+    // display: flex;
+    background-color: #F2F2F2;
+    border: 1px solid #DDDDDD;
     &:hover {
         background-color: $color_white;
         border: 1px solid #DDDDDD;
@@ -209,10 +228,12 @@ body {
     background-image: url('../images/icon-external-link.svg');
 }
 
-.footer {
+.footer&.right-side 
     min-width: 1286px;
-    background-color: $color_light-grey;
     height: 60px;
+
+.footer {
+    background-color: $color_light-grey;
     border-top: 1px solid $color_grey;
 }
 
