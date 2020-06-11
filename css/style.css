@@ -94,10 +94,12 @@ body {
   width: 100%;
 }
 .header {
-  min-width: 1286px;
-  height: 60px;
   background-color: #f2f2f2;
   border-bottom: 1px solid #ddd;
+}
+.header.right-side {
+  min-width: 1286px;
+  height: 60px;
 }
 .header__title {
   margin-right: auto;
@@ -116,7 +118,7 @@ body {
   padding-left: 28px;
   padding-top: 20px;
 }
-.btn-area {
+.btn-area.right-side {
   height: 38px;
   margin-left: 28px;
   margin-top: 28px;
@@ -124,14 +126,16 @@ body {
 .btn-area >button {
   margin-right: 16px;
 }
-.main {
+.main.flex {
   min-width: 1286px;
 }
-.market-content {
+.main.market-content {
   width: 50%;
-  background: #fff;
   margin-left: 28px;
   margin-top: 28px;
+}
+.market-content {
+  background: #fff;
 }
 .market-content__container {
   flex-direction: column;
@@ -139,7 +143,7 @@ body {
   height: 1096px;
   margin-top: 24px;
 }
-.m-card {
+.m-card.market-content {
   width: 52%;
 }
 .m-card__title {
@@ -151,17 +155,20 @@ body {
 .m-card__list-item {
   margin-bottom: 12px;
 }
-.business-dev {
+.business-dev.main {
   width: 50%;
-  background: #fff;
   margin-left: 28px;
   margin-top: 28px;
   margin-right: 34px;
 }
-.b-card {
-  display: flex;
-  background-color: #f2f2f2;
+.business-dev {
+  background: #fff;
+}
+.b-card.business__container {
   margin-bottom: 20px;
+}
+.b-card {
+  background-color: #f2f2f2;
   border: 1px solid #ddd;
 }
 .b-card:hover {
@@ -192,10 +199,12 @@ body {
   margin-bottom: 24px;
   background-image: url("../images/icon-external-link.svg");
 }
-.footer {
+.footer.right-side {
   min-width: 1286px;
-  background-color: #f2f2f2;
   height: 60px;
+}
+.footer {
+  background-color: #f2f2f2;
   border-top: 1px solid #ddd;
 }
 .footer__container {
