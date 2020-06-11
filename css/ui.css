@@ -460,6 +460,90 @@
   font-weight: 400;
   line-height: 24px;
 }
+@media screen and (min-width: 1920px) {
+  .font_h1 {
+    font-family: 'Arial';
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    line-height: 44px;
+  }
+  .font_h2,
+  .link_big {
+    font-family: 'Arial';
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.64px;
+    line-height: 40px;
+  }
+  .font_button {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .font_caption-l-medium {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .font_caption-l-regular {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+    line-height: 24px;
+  }
+  .font_caption-l-light {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.36px;
+    line-height: 24px;
+  }
+  .font_caption-m-medium {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    line-height: 20px;
+  }
+  .font_caption-m-regular {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    line-height: 20px;
+  }
+  .font_caption-m-light,
+  .link_small {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.32px;
+    line-height: 20px;
+  }
+  .font_caption-s-regular {
+    font-family: 'Arial';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 16px;
+  }
+  .font_body-semibold {
+    font-family: 'KazimirText RBC font';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  .font_body-regular {
+    font-family: 'KazimirText RBC font';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}
 .button_no-icon-accent-normal {
   display: flex;
   align-items: center;
