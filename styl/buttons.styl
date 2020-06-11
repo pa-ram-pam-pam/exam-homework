@@ -1,0 +1,80 @@
+button =
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 12px 20px;
+  background: transparent;
+
+.button_no-icon-accent-normal {
+  {button};
+  background: $color_accent-active;
+  border: 2px solid $color_accent-active;
+  color: $color_body;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button_no-icon-accent-on-hover {
+  {button};
+  background: $color_on-hover;
+  color: $color_body;
+}
+
+.button_no-icon-accent-on-disable {
+  {button};
+  background: $color_picked;
+  color: $color_dark-grey;
+}
+
+.button_no-icon-accent-alt-normal {
+  {button};
+  border: 2px solid $color_accent-active;
+  box-sizing: border-box;
+  color: $color_body;
+}
+
+.button_no-icon-accent-alt-on-hover {
+  {button};
+  background: $color_on-hover;
+  border: 2px solid $color_accent-active;
+  box-sizing: border-box;
+}
+
+.button_no-icon-accent-alt-disable {
+  {button};
+  border: 2px solid $color_picked;
+  box-sizing: border-box;
+  color: $color_body;
+}
+
+.button_no-icon-secondary-normal {
+  background: $color_grey;
+  color: $color_body;
+}
+
+.button_no-icon-secondary-on-hover {
+  background: $color_light-grey;
+  color: $color_body;
+}
+
+.button_no-icon-secondary-disable {
+  background: $color_dark-grey;
+  color: $color_dark-grey-2;
+}
+
+.button_no-icon-ghost-normal {
+  background: $color_grey;
+  color: $color_body;
+}
+
+.button_with-icon-accent-normal {
+  background: $color_accent-active;
+  border: 1px solid $color_accent-active;
+  color: $color_body;
+  background-image: url('../images/Vector.svg');
+  background-repeat: no-repeat;
+  background-position: 146px 9px;
+  padding-left: 20px;
+  padding-right: 38px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
