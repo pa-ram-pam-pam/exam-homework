@@ -140,7 +140,7 @@ body {
 .market-content__container {
   flex-direction: column;
   flex-wrap: wrap;
-  height: 1096px;
+  height: 980px;
   margin-top: 24px;
 }
 .m-card.market-content {

@@ -1,192 +1,372 @@
 icon =
-    width: 20px
-    height 20px
+    width: 20px;
+    height: 20px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 
-.icon-search
-        {icon} 
-        background-image: url("../images/icon-search.svg")
-        &:hover
-            background-image: url("../images/icon-search_h.svg")
-        &_on
-            background-image: url("../images/icon-search_f.svg")
+.icon-search {
+    {icon};
+    background-image: url('../images/icon-search.svg');
 
-.icon-search-small
-        {icon}
-        background-image: url("../images/icon-search-small.svg")
+    &:hover {
+        background-image: url('../images/icon-search_h.svg');
+    }
 
-.icon-bookmark
-        {icon}
-        background-image: url("../images/icon-bookmark.svg")
-        &:hover
-            background-image: url("../images/icon-bookmark_h.svg")
-        &_on
-            {icon}
-            background-image: url("../images/icon-bookmark_f.svg")
+    &_on {
+        background-image: url('../images/icon-search_f.svg');
+    }
 
-.icon-notification
-        {icon}
-        background-image: url("../images/icon-notification.svg")
-        &:hover
-            background-image: url("../images/icon-notification_h.svg")
-        &_on
-            {icon}
-            background-image: url("../images/icon-notification_f.svg")
-    
-.icon-hide-notification
-        background-image: url("../images/icon-hide-notification.svg")
+    &-d-none {
+        display: none;
+    }
+}
 
-.icon-download
-        {icon}
-        background-image: url("../images/icon-download.svg")
-        &:hover
-            background-image: url("../images/icon-download_h.svg")
-        &_on
-            {icon}
-            background-image: url("../images/icon-download_f.svg")    
+.icon-search-small {
+    {icon};
+    background-image: url('../images/icon-search-small.svg');
 
-.icon-external-link
-        {icon}
-        background-image: url("../images/icon-external-link.svg")
-    
-.icon-eye-opened
-        {icon}
-        background-image: url("../images/icon-eye-opened.svg")
-        &:hover
-            background-image: url("../images/icon-eye-opened_h.svg")
+    &-d-none {
+        display: none;
+    }
+}
 
-.icon-eye-closed
-        {icon}
-        background-image: url("../images/icon-eye-closed.svg")
-        &:hover
-            background-image: url("../images/icon-eye-closed_h.svg")
-    
-.icon-qa
-        {icon}
-        background-image: url("../images/icon-qa.svg")
-        &:hover
-            background-image: url("../images/icon-qa_h.svg")
-        &_on
-            {icon}
-            background-image: url("../images/icon-qa_f.svg")
+.icon-bookmark {
+    {icon};
+    background-image: url('../images/icon-bookmark.svg');
 
-.icon-doc-icon
-        {icon}
-        background-image: url("../images/icon-doc-icon.svg")
+    &:hover {
+        background-image: url('../images/icon-bookmark_h.svg');
+    }
 
-.icon-pdf-icon
-        {icon}
-        background-image: url("../images/icon-pdf-icon.svg")
+    &_on {
+        {icon};
+        background-image: url('../images/icon-bookmark_f.svg');
+    }
 
-.icon-settings
-        {icon}
-        background-image: url("../images/icon-settings.svg")
-        &:hover
-            background-image: url("../images/icon-settings_h.svg")
+    &-d-none {
+        display: none;
+    }
+}
 
-.icon-more-horizontal
-        {icon}
-        background-image: url("../images/icon-more-horizontal.svg")
-        &:hover
-            background-image: url("../images/icon-more-horizontal_h.svg")
-        &_on
-            {icon}
-            background-image: url("../images/icon-more-horizontal_f.svg")
+.icon-notification {
+    {icon};
+    background-image: url('../images/icon-notification.svg');
 
-.icon-delete
-        {icon}
-        background-image: url("../images/icon-delete.svg")
-        &:hover
-            background-image: url("../images/icon-delete_h.svg")
+    &:hover {
+        background-image: url('../images/icon-notification_h.svg');
+    }
 
-.icon-history
-        {icon}
-        background-image: url("../images/icon-history.svg")
+    &_on {
+        {icon};
+        background-image: url('../images/icon-notification_f.svg');
+    }
 
-.icon-seen
-        {icon}
-        background-image: url("../images/icon-seen.svg")
+    &-d-none {
+        display: none;
+    }
+}
 
-.icon-arrow-right
-        width: 12px
-        height 12px
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-image: url("../images/icon-arrow-right.svg")
+.icon-hide-notification {
+    background-image: url('../images/icon-hide-notification.svg');
 
-.icon-arrow-down
-        width: 12px
-        height 12px
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-image: url("../images/icon-arrow-down.svg")
+    &-d-none {
+        display: none;
+    }
+}
 
-icon-marketing=
-    width: 48px
-    height: 48px
+.icon-download {
+    {icon};
+    background-image: url('../images/icon-download.svg');
+
+    &:hover {
+        background-image: url('../images/icon-download_h.svg');
+    }
+
+    &_on {
+        {icon};
+        background-image: url('../images/icon-download_f.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-external-link {
+    {icon};
+    background-image: url('../images/icon-external-link.svg');
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-eye-opened {
+    {icon};
+    background-image: url('../images/icon-eye-opened.svg');
+
+    &:hover {
+        background-image: url('../images/icon-eye-opened_h.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-eye-closed {
+    {icon};
+    background-image: url('../images/icon-eye-closed.svg');
+
+    &:hover {
+        background-image: url('../images/icon-eye-closed_h.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-qa {
+    {icon};
+    background-image: url('../images/icon-qa.svg');
+
+    &:hover {
+        background-image: url('../images/icon-qa_h.svg');
+    }
+
+    &_on {
+        {icon};
+        background-image: url('../images/icon-qa_f.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-doc-icon {
+    {icon};
+    background-image: url('../images/icon-doc-icon.svg');
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-pdf-icon {
+    {icon};
+    background-image: url('../images/icon-pdf-icon.svg');
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-settings {
+    {icon};
+    background-image: url('../images/icon-settings.svg');
+
+    &:hover {
+        background-image: url('../images/icon-settings_h.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-more-horizontal {
+    {icon};
+    background-image: url('../images/icon-more-horizontal.svg');
+
+    &:hover {
+        background-image: url('../images/icon-more-horizontal_h.svg');
+    }
+
+    &_on {
+        {icon};
+        background-image: url('../images/icon-more-horizontal_f.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-delete {
+    {icon};
+    background-image: url('../images/icon-delete.svg');
+
+    &:hover {
+        background-image: url('../images/icon-delete_h.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-history {
+    {icon};
+    background-image: url('../images/icon-history.svg');
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-seen {
+    {icon};
+    background-image: url('../images/icon-seen.svg');
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-arrow-right {
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url('../images/icon-arrow-right.svg');
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-arrow-down {
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url('../images/icon-arrow-down.svg');
+
+    &-d-none {
+        display: none;
+    }
+}
+
+icon-marketing =
+    width: 48px;
+    height: 48px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    
-icon-marketing-on=
-    width: 48px
-    height: 48px
+icon-marketing-on =
+    width: 48px;
+    height: 48px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 
-.icon-marketing-clothes
-        {icon-marketing}
-        background-image: url("../images/icon-marketing-clothes_d.svg")
-        &:hover
-            background-image: url("../images/icon-marketing-clothes_h.svg")
-        &_on
-            {icon-marketing-on}
-            background-image: url("../images/icon-marketing-clothes_a.svg")
-        
-.icon-marketing-footwear
-        {icon-marketing}
-        background-image: url("../images/icon-marketing-footwear_d.svg")
-        &:hover
-            background-image: url("../images/icon-marketing-footwear_h.svg")
-        &_on
-            {icon-marketing-on}
-            background-image: url("../images/icon-marketing-footwear_a.svg")
-         
-.icon-marketing-estate
-        {icon-marketing}
-        background-image: url("../images/icon-marketing-estate_d.svg")
-        &:hover
-            background-image: url("../images/icon-marketing-estate_h.svg")
-        &_on
-            {icon-marketing-on}
-            background-image: url("../images/icon-marketing-estate_a.svg")    
-    
-.icon-marketing-lux
-        {icon-marketing}
-        background-image: url("../images/icon-marketing-lux_d.svg")
-        &:hover
-            background-image: url("../images/icon-marketing-lux_h.svg")
-        &_on
-                {icon-marketing-on}
-                background-image: url("../images/icon-marketing-lux_a.svg")    
-    
-.icon-marketing-event
-        {icon-marketing}
-        background-image: url("../images/icon-marketing-event_d.svg")
-        &:hover
-            background-image: url("../images/icon-marketing-event_h.svg")
-        &_on
-            {icon-marketing-on}
-            background-image: url("../images/icon-marketing-event_a.svg")    
-    
-.icon-marketing-profile
-        {icon-marketing}
-        background-image: url("../images/icon-marketing-profile_d.svg")
-        &:hover
-            background-image: url("../images/icon-marketing-profile_h.svg")
-        &_on
-            {icon-marketing-on}
-            background-image: url("../images/icon-marketing-profile_a.svg")    
+.icon-marketing-clothes {
+    {icon-marketing};
+    background-image: url('../images/icon-marketing-clothes_d.svg');
+
+    &:hover {
+        background-image: url('../images/icon-marketing-clothes_h.svg');
+    }
+
+    &_on {
+        {icon-marketing-on};
+        background-image: url('../images/icon-marketing-clothes_a.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-marketing-footwear {
+    {icon-marketing};
+    background-image: url('../images/icon-marketing-footwear_d.svg');
+
+    &:hover {
+        background-image: url('../images/icon-marketing-footwear_h.svg');
+    }
+
+    &_on {
+        {icon-marketing-on};
+        background-image: url('../images/icon-marketing-footwear_a.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-marketing-estate {
+    {icon-marketing};
+    background-image: url('../images/icon-marketing-estate_d.svg');
+
+    &:hover {
+        background-image: url('../images/icon-marketing-estate_h.svg');
+    }
+
+    &_on {
+        {icon-marketing-on};
+        background-image: url('../images/icon-marketing-estate_a.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-marketing-lux {
+    {icon-marketing};
+    background-image: url('../images/icon-marketing-lux_d.svg');
+
+    &:hover {
+        background-image: url('../images/icon-marketing-lux_h.svg');
+    }
+
+    &_on {
+        {icon-marketing-on};
+        background-image: url('../images/icon-marketing-lux_a.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-marketing-event {
+    {icon-marketing};
+    background-image: url('../images/icon-marketing-event_d.svg');
+
+    &:hover {
+        background-image: url('../images/icon-marketing-event_h.svg');
+    }
+
+    &_on {
+        {icon-marketing-on};
+        background-image: url('../images/icon-marketing-event_a.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}
+
+.icon-marketing-profile {
+    {icon-marketing};
+    background-image: url('../images/icon-marketing-profile_d.svg');
+
+    &:hover {
+        background-image: url('../images/icon-marketing-profile_h.svg');
+    }
+
+    &_on {
+        {icon-marketing-on};
+        background-image: url('../images/icon-marketing-profile_a.svg');
+    }
+
+    &-d-none {
+        display: none;
+    }
+}

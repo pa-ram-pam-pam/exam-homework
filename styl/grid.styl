@@ -1,0 +1,15 @@
+$count_of_columns = 12;
+
+$width-of-column = 100% / $count_of_columns
+
+
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+for num in 1..12
+    .col-{num}
+        width: $width-of-column*num
