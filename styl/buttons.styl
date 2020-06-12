@@ -1,20 +1,20 @@
-font1366=
+font1366 =
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
-font1920=
+font1920 =
   font-size: 18px;
   line-height: 20px;
 button =
-  {font_button}
-  {font1366}
+  {font_button};
+  {font1366};
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
   cursor: pointer;
 button1920 =
-  {font1920}
+  {font1920};
   font-size: 18px;
   line-height: 20px;
   display: flex;
@@ -25,9 +25,11 @@ normal =
 disable =
   color: $color_dark-grey;
 accent =
+  color: $color_body;
   background: $color_accent-active;
   border: 2px solid $color_accent-active;
 accent-alt =
+  color: $color_body;
   background: transparent;
   border: 2px solid $color_accent-active;
   box-sizing: border-box;
@@ -112,7 +114,7 @@ accent-alt =
   padding-bottom: 12px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1920px) {
   .button_no-icon-accent-normal {
     {button1920};
     {accent};
@@ -133,7 +135,6 @@ accent-alt =
     background: $color_picked;
     border: 2px solid $color_picked;
     color: #605643;
-
   }
 
   .button_no-icon-accent-alt-normal {

@@ -460,7 +460,7 @@
   font-weight: 400;
   line-height: 24px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1920px) {
   .font_h1 {
     font-family: 'Arial';
     font-size: 36px;
@@ -553,6 +553,7 @@
   text-align: center;
   padding: 12px 20px;
   cursor: pointer;
+  color: #222;
   background: #fc6;
   border: 2px solid #fc6;
   color: #222;
@@ -572,6 +573,7 @@
   text-align: center;
   padding: 12px 20px;
   cursor: pointer;
+  color: #222;
   background: #fc6;
   border: 2px solid #fc6;
   color: #666;
@@ -587,6 +589,7 @@
   text-align: center;
   padding: 12px 20px;
   cursor: pointer;
+  color: #222;
   background: transparent;
   border: 2px solid #fc6;
   box-sizing: border-box;
@@ -664,6 +667,7 @@
   text-align: center;
   padding: 12px 20px;
   cursor: pointer;
+  color: #222;
   background: #fc6;
   border: 2px solid #fc6;
   background-image: url("../images/vector.svg");
@@ -674,7 +678,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1920px) {
   .button_no-icon-accent-normal {
     font-size: 18px;
     line-height: 20px;
@@ -683,6 +687,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    color: #222;
     background: #fc6;
     border: 2px solid #fc6;
     color: #222;
@@ -701,6 +706,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    color: #222;
     background: #fc6;
     border: 2px solid #fc6;
     color: #666;
@@ -716,6 +722,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    color: #222;
     background: transparent;
     border: 2px solid #fc6;
     box-sizing: border-box;
@@ -789,6 +796,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    color: #222;
     background: #fc6;
     border: 2px solid #fc6;
     background-image: url("../images/Vector.svg");
