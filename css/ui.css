@@ -318,12 +318,11 @@
   background-image: url("../images/icon-marketing-clothes_h.svg");
 }
 .icon-marketing-clothes_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #f2f2f2;
   background-image: url("../images/icon-marketing-clothes_a.svg");
 }
 .icon-marketing-clothes-d-none {
@@ -341,8 +340,8 @@
   background-image: url("../images/icon-marketing-footwear_h.svg");
 }
 .icon-marketing-footwear_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -363,8 +362,8 @@
   background-image: url("../images/icon-marketing-estate_h.svg");
 }
 .icon-marketing-estate_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -385,8 +384,8 @@
   background-image: url("../images/icon-marketing-lux_h.svg");
 }
 .icon-marketing-lux_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -407,8 +406,8 @@
   background-image: url("../images/icon-marketing-event_h.svg");
 }
 .icon-marketing-event_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -429,8 +428,8 @@
   background-image: url("../images/icon-marketing-profile_h.svg");
 }
 .icon-marketing-profile_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
