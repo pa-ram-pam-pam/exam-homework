@@ -131,7 +131,7 @@ accent-alt =
 .button_with-icon-accent-normal {
   {button};
   {accent};
-  background-image: url('../images/vector.svg');
+  // background-image: url('../images/vector.svg');
   background-repeat: no-repeat;
   background-position: right 10% center;
   padding-left: 20px;
@@ -141,6 +141,9 @@ accent-alt =
 
   &:hover {
     background: $color_on-hover;
+    background-image: url('../images/icon-external-link.svg');
+    background-repeat: no-repeat;
+    background-position: right 10% center;
     box-shadow: none;
     border: 2px solid $color_on-hover;
   }
@@ -259,6 +262,7 @@ accent-alt =
     padding-right: 38px;
     padding-top: 12px;
     padding-bottom: 12px;
+
     &:hover {
       background: $color_on-hover;
       box-shadow: none;
