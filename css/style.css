@@ -57,12 +57,14 @@ body {
   margin: 0 auto;
 }
 .side-panel__logo {
+  align-self: center;
   display: block;
   width: 48px;
   height: 48px;
   margin-top: 6px;
 }
 .side-panel__line {
+  align-self: center;
   border-top: 1px solid #ddd;
   margin-top: 5px;
   width: 48px;
@@ -75,7 +77,6 @@ body {
 }
 .side-panel__icons-container >a {
   display: block;
-  margin-bottom: 12px;
 }
 .side-panel__icon-container-bottom {
   flex-direction: column;

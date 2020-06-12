@@ -90,7 +90,7 @@
   background-image: url("../images/icon-notification.svg");
 }
 .icon-notification:hover {
-  background-image: url("../images/icon-notification_h.svg");
+  background-image: url("../images/icon-notification_a.svg");
 }
 .icon-notification_on {
   width: 20px;
@@ -318,8 +318,8 @@
   background-image: url("../images/icon-marketing-clothes_h.svg");
 }
 .icon-marketing-clothes_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -340,8 +340,8 @@
   background-image: url("../images/icon-marketing-footwear_h.svg");
 }
 .icon-marketing-footwear_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -362,8 +362,8 @@
   background-image: url("../images/icon-marketing-estate_h.svg");
 }
 .icon-marketing-estate_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -384,8 +384,8 @@
   background-image: url("../images/icon-marketing-lux_h.svg");
 }
 .icon-marketing-lux_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -406,8 +406,8 @@
   background-image: url("../images/icon-marketing-event_h.svg");
 }
 .icon-marketing-event_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -428,8 +428,8 @@
   background-image: url("../images/icon-marketing-profile_h.svg");
 }
 .icon-marketing-profile_on {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -766,13 +766,20 @@
   color: #222;
   background: #fc6;
   border: 2px solid #fc6;
-  background-image: url("../images/vector.svg");
   background-repeat: no-repeat;
   background-position: right 10% center;
   padding-left: 20px;
   padding-right: 38px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+.button_with-icon-accent-normal:hover {
+  background: #fec;
+  background-image: url("../images/icon-external-link.svg");
+  background-repeat: no-repeat;
+  background-position: right 10% center;
+  box-shadow: none;
+  border: 2px solid #fec;
 }
 .button_with-icon-accent-normal-d-none {
   display: none;
@@ -910,6 +917,11 @@
     padding-right: 38px;
     padding-top: 12px;
     padding-bottom: 12px;
+  }
+  .button_with-icon-accent-normal:hover {
+    background: #fec;
+    box-shadow: none;
+    border: 2px solid #fec;
   }
   .button_with-icon-accent-normal-d-none {
     display: none;
