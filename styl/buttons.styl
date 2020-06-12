@@ -1,17 +1,41 @@
+font1366=
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+font1920=
+  font-size: 18px;
+  line-height: 20px;
 button =
+  {font_button}
+  {font1366}
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  // background: transparent;
-  font-size: 14px;
-  line-height: 14px;
+  cursor: pointer;
+button1920 =
+  {font1920}
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+normal =
+  color: $color_body;
+disable =
+  color: $color_dark-grey;
+accent =
+  background: $color_accent-active;
+  border: 2px solid $color_accent-active;
+accent-alt =
+  background: transparent;
+  border: 2px solid $color_accent-active;
+  box-sizing: border-box;
 
 .button_no-icon-accent-normal {
   {button};
-  background: $color_accent-active;
-  border: 2px solid $color_accent-active;
-  color: $color_body;
+  {accent};
+  {normal};
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   &:hover {
@@ -23,16 +47,16 @@ button =
 
 .button_no-icon-accent-on-disable {
   {button};
+  {accent};
+  {disable};
   background: $color_picked;
-  color: $color_dark-grey;
+  border: 2px solid $color_picked;
 }
 
 .button_no-icon-accent-alt-normal {
   {button};
-  background: transparent;
-  border: 2px solid $color_accent-active;
-  box-sizing: border-box;
-  color: $color_body;
+  {accent-alt};
+  {normal};
 
   &:hover {
     background: $color_on-hover;
@@ -43,48 +67,132 @@ button =
 
 .button_no-icon-accent-alt-disable {
   {button};
+  {disable};
   border: 2px solid $color_picked;
   box-sizing: border-box;
-  color: $color_body;
   background: transparent;
 }
 
 .button_no-icon-secondary-normal {
   {button};
+  {normal};
   border: 2px solid $color_grey;
   background: $color_grey;
-  color: $color_body;
 
   &:hover {
     background: $color_light-grey;
     border: 2px solid $color_light-grey;
-    color: $color_body;
   }
 }
 
 .button_no-icon-secondary-disable {
   {button};
-  background: $color_dark-grey;
-  color: $color_dark-grey-2;
+  {disable};
+  background: $color_dark-grey-2;
+  border: 2px solid $color_dark-grey-2;
+  color: $color_dark-grey;
 }
 
 .button_no-icon-ghost-normal {
   {button};
-  background: $color_grey;
-  color: $color_body;
+  {normal};
   background: transparent;
+  border: 2px solid transparent;
 }
 
 .button_with-icon-accent-normal {
   {button};
-  background: $color_accent-active;
-  border: 1px solid $color_accent-active;
-  color: $color_body;
-  background-image: url('../images/Vector.svg');
+  {accent};
+  background-image: url('../images/vector.svg');
   background-repeat: no-repeat;
-  background-position: 146px 9px;
+  background-position: right 10% center;
   padding-left: 20px;
   padding-right: 38px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  .button_no-icon-accent-normal {
+    {button1920};
+    {accent};
+    {normal};
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      background: $color_on-hover;
+      box-shadow: none;
+      border: 2px solid $color_on-hover;
+    }
+  }
+
+  .button_no-icon-accent-on-disable {
+    {button1920};
+    {accent};
+    {disable};
+    background: $color_picked;
+    border: 2px solid $color_picked;
+    color: #605643;
+
+  }
+
+  .button_no-icon-accent-alt-normal {
+    {button1920};
+    {accent-alt};
+    {normal};
+
+    &:hover {
+      background: $color_on-hover;
+      border: 2px solid $color_accent-active;
+      box-sizing: border-box;
+    }
+  }
+
+  .button_no-icon-accent-alt-disable {
+    {button1920};
+    {disable};
+    border: 2px solid $color_picked;
+    box-sizing: border-box;
+    background: transparent;
+    color: $color_dark-grey;
+  }
+
+  .button_no-icon-secondary-normal {
+    {button1920};
+    {normal};
+    border: 2px solid $color_grey;
+    background: $color_grey;
+
+    &:hover {
+      background: $color_light-grey;
+      border: 2px solid $color_light-grey;
+    }
+  }
+
+  .button_no-icon-secondary-disable {
+    {button1920};
+    {disable};
+    background: $color_dark-grey-2;
+    border: 2px solid $color_dark-grey-2;
+    color: #605643;
+  }
+
+  .button_no-icon-ghost-normal {
+    {button1920};
+    {normal};
+    background: transparent;
+    border: 2px solid transparent;
+  }
+
+  .button_with-icon-accent-normal {
+    {button1920};
+    {accent};
+    background-image: url('../images/Vector.svg');
+    background-repeat: no-repeat;
+    background-position: right 10% center;
+    padding-left: 20px;
+    padding-right: 38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
