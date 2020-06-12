@@ -460,7 +460,7 @@
   font-weight: 400;
   line-height: 24px;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 600px) {
   .font_h1 {
     font-family: 'Arial';
     font-size: 36px;
@@ -545,12 +545,13 @@
   }
 }
 .button_no-icon-accent-normal {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   background: #fc6;
   border: 2px solid #fc6;
@@ -563,12 +564,13 @@
   border: 2px solid #fec;
 }
 .button_no-icon-accent-on-disable {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   background: #fc6;
   border: 2px solid #fc6;
@@ -577,12 +579,13 @@
   border: 2px solid #fd9;
 }
 .button_no-icon-accent-alt-normal {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   background: transparent;
   border: 2px solid #fc6;
@@ -595,12 +598,13 @@
   box-sizing: border-box;
 }
 .button_no-icon-accent-alt-disable {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   color: #666;
   border: 2px solid #fd9;
@@ -608,12 +612,13 @@
   background: transparent;
 }
 .button_no-icon-secondary-normal {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   color: #222;
   border: 2px solid #ddd;
@@ -624,12 +629,13 @@
   border: 2px solid #f2f2f2;
 }
 .button_no-icon-secondary-disable {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   color: #666;
   background: #c4c4c4;
@@ -637,24 +643,26 @@
   color: #666;
 }
 .button_no-icon-ghost-normal {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   color: #222;
   background: transparent;
   border: 2px solid transparent;
 }
 .button_with-icon-accent-normal {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 12px 20px;
-  font-size: 14px;
-  line-height: 14px;
   cursor: pointer;
   background: #fc6;
   border: 2px solid #fc6;
@@ -666,8 +674,10 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 600px) {
   .button_no-icon-accent-normal {
+    font-size: 18px;
+    line-height: 20px;
     font-size: 18px;
     line-height: 20px;
     display: flex;
@@ -686,6 +696,8 @@
   .button_no-icon-accent-on-disable {
     font-size: 18px;
     line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -697,6 +709,8 @@
     color: #605643;
   }
   .button_no-icon-accent-alt-normal {
+    font-size: 18px;
+    line-height: 20px;
     font-size: 18px;
     line-height: 20px;
     display: flex;
@@ -715,6 +729,8 @@
   .button_no-icon-accent-alt-disable {
     font-size: 18px;
     line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -725,6 +741,8 @@
     color: #666;
   }
   .button_no-icon-secondary-normal {
+    font-size: 18px;
+    line-height: 20px;
     font-size: 18px;
     line-height: 20px;
     display: flex;
@@ -741,6 +759,8 @@
   .button_no-icon-secondary-disable {
     font-size: 18px;
     line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -752,6 +772,8 @@
   .button_no-icon-ghost-normal {
     font-size: 18px;
     line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -760,6 +782,8 @@
     border: 2px solid transparent;
   }
   .button_with-icon-accent-normal {
+    font-size: 18px;
+    line-height: 20px;
     font-size: 18px;
     line-height: 20px;
     display: flex;
