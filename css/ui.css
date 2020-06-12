@@ -658,9 +658,9 @@
   cursor: pointer;
   background: #fc6;
   border: 2px solid #fc6;
-  background-image: url("../images/Vector.svg");
+  background-image: url("../images/vector.svg");
   background-repeat: no-repeat;
-  background-position: 146px 9px;
+  background-position: right 10% center;
   padding-left: 20px;
   padding-right: 38px;
   padding-top: 12px;
@@ -769,7 +769,7 @@
     border: 2px solid #fc6;
     background-image: url("../images/Vector.svg");
     background-repeat: no-repeat;
-    background-position: 146px 9px;
+    background-position: right 10% center;
     padding-left: 20px;
     padding-right: 38px;
     padding-top: 12px;
