@@ -323,6 +323,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: #f2f2f2;
   background-image: url("../images/icon-marketing-clothes_a.svg");
 }
 .icon-marketing-clothes-d-none {
@@ -774,6 +775,11 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.button_with-icon-accent-normal:hover {
+  background: #fec;
+  box-shadow: none;
+  border: 2px solid #fec;
+}
 .button_with-icon-accent-normal-d-none {
   display: none;
 }
@@ -910,6 +916,11 @@
     padding-right: 38px;
     padding-top: 12px;
     padding-bottom: 12px;
+  }
+  .button_with-icon-accent-normal:hover {
+    background: #fec;
+    box-shadow: none;
+    border: 2px solid #fec;
   }
   .button_with-icon-accent-normal-d-none {
     display: none;
