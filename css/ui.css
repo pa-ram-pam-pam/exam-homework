@@ -551,6 +551,7 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
+  cursor: pointer;
   background: #fc6;
   border: 2px solid #fc6;
   color: #222;
@@ -568,8 +569,12 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
-  background: #fd9;
+  cursor: pointer;
+  background: #fc6;
+  border: 2px solid #fc6;
   color: #666;
+  background: #fd9;
+  border: 2px solid #fd9;
 }
 .button_no-icon-accent-alt-normal {
   display: flex;
@@ -578,6 +583,7 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
+  cursor: pointer;
   background: transparent;
   border: 2px solid #fc6;
   box-sizing: border-box;
@@ -595,9 +601,10 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
+  cursor: pointer;
+  color: #666;
   border: 2px solid #fd9;
   box-sizing: border-box;
-  color: #222;
   background: transparent;
 }
 .button_no-icon-secondary-normal {
@@ -607,14 +614,14 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
+  cursor: pointer;
+  color: #222;
   border: 2px solid #ddd;
   background: #ddd;
-  color: #222;
 }
 .button_no-icon-secondary-normal:hover {
   background: #f2f2f2;
   border: 2px solid #f2f2f2;
-  color: #222;
 }
 .button_no-icon-secondary-disable {
   display: flex;
@@ -623,8 +630,11 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
-  background: #666;
-  color: #c4c4c4;
+  cursor: pointer;
+  color: #666;
+  background: #c4c4c4;
+  border: 2px solid #c4c4c4;
+  color: #666;
 }
 .button_no-icon-ghost-normal {
   display: flex;
@@ -633,9 +643,10 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
-  background: #ddd;
+  cursor: pointer;
   color: #222;
   background: transparent;
+  border: 2px solid transparent;
 }
 .button_with-icon-accent-normal {
   display: flex;
@@ -644,9 +655,9 @@
   padding: 12px 20px;
   font-size: 14px;
   line-height: 14px;
+  cursor: pointer;
   background: #fc6;
-  border: 1px solid #fc6;
-  color: #222;
+  border: 2px solid #fc6;
   background-image: url("../images/Vector.svg");
   background-repeat: no-repeat;
   background-position: 146px 9px;
@@ -654,6 +665,116 @@
   padding-right: 38px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+@media screen and (min-width: 1920px) {
+  .button_no-icon-accent-normal {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #fc6;
+    border: 2px solid #fc6;
+    color: #222;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  }
+  .button_no-icon-accent-normal:hover {
+    background: #fec;
+    box-shadow: none;
+    border: 2px solid #fec;
+  }
+  .button_no-icon-accent-on-disable {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #fc6;
+    border: 2px solid #fc6;
+    color: #666;
+    background: #fd9;
+    border: 2px solid #fd9;
+    color: #605643;
+  }
+  .button_no-icon-accent-alt-normal {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #fc6;
+    box-sizing: border-box;
+    color: #222;
+  }
+  .button_no-icon-accent-alt-normal:hover {
+    background: #fec;
+    border: 2px solid #fc6;
+    box-sizing: border-box;
+  }
+  .button_no-icon-accent-alt-disable {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #666;
+    border: 2px solid #fd9;
+    box-sizing: border-box;
+    background: transparent;
+    color: #666;
+  }
+  .button_no-icon-secondary-normal {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #222;
+    border: 2px solid #ddd;
+    background: #ddd;
+  }
+  .button_no-icon-secondary-normal:hover {
+    background: #f2f2f2;
+    border: 2px solid #f2f2f2;
+  }
+  .button_no-icon-secondary-disable {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #666;
+    background: #c4c4c4;
+    border: 2px solid #c4c4c4;
+    color: #605643;
+  }
+  .button_no-icon-ghost-normal {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #222;
+    background: transparent;
+    border: 2px solid transparent;
+  }
+  .button_with-icon-accent-normal {
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #fc6;
+    border: 2px solid #fc6;
+    background-image: url("../images/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: 146px 9px;
+    padding-left: 20px;
+    padding-right: 38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
 .link_big {
   color: #222;
